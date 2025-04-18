@@ -269,6 +269,13 @@ footer p {
     margin-top: 20px;
     margin-left: 20px;
   }
+
+  .footer-container {
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
 }
 
 /* medium size device */
@@ -292,5 +299,11 @@ footer p {
     grid-template-columns: repeat(2, 1fr);
     gap: 50px;
     justify-items: center;
+  }
+  .footer-container {
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 20px;
+    padding-bottom: 20px;
   }
 }
